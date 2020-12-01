@@ -31,7 +31,7 @@ class App extends Component {
 
   render() {
     return (
-      <>
+      <div>
         <Section title="Please leave feedback">
           <FeedbackOptions
             options={this.state}
@@ -52,7 +52,7 @@ class App extends Component {
             />
           )}
         </Section>
-      </>
+      </div>
     );
   }
 }
