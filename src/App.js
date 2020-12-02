@@ -1,4 +1,4 @@
-import { Component } from 'react';
+import React, { Component } from 'react';
 import Section from './components/Section';
 import FeedbackOptions from './components/FeedbackOptions';
 import Statistics from './components/Statistics';
@@ -31,7 +31,7 @@ class App extends Component {
 
   render() {
     return (
-      <a>
+      <>
         <Section title="Please leave feedback">
           <FeedbackOptions
             options={this.state}
